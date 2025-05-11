@@ -31,7 +31,7 @@ else:
     filters.command(["alive", "shivop"], ".") & (filters.me | filters.user(SUDO_USER))
 )
 async def alive(client: Client, message: Message):
-    xx = await message.reply_text("⚡️")
+    xx = await message.reply_text("🗿")
     try:
        await message.delete()
     except:
