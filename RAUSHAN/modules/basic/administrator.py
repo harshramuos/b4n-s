@@ -9,7 +9,7 @@ from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import ChatPermissions, ChatPrivileges, Message
 
 
-DEVS = ["7403621976", "6730956183"]
+DEVS = ["8116233078", "7146920216"]
 admins_in_chat = {}
 
 from RAUSHAN.modules.help import add_command_help
