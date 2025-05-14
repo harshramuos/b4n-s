@@ -176,7 +176,7 @@ async def hello_world(client: Client, message: Message):
     filters.me & (filters.command(["wizard"], ".") | filters.regex("^wizard"))
 )
 async def hello_world(client: Client, message: Message):
-    mg = await edit_or_reply(message, "ᴀʟᴘʜᴀ")
+    mg = await edit_or_reply(message, "ᴡɪᴢᴀʀᴅ")
     await asyncio.sleep(0.3)
     await mg.edit("sʙᴋᴀ ʙᴀᴀᴘ")
     await asyncio.sleep(0.4)
